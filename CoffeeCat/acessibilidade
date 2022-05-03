@@ -1,0 +1,31 @@
+
+/*Botões de alerta
+
+div data-message="Esse é do primeiro botão" tabindex="0">Clique em mim!</div>
+        <div data-message="Esse é do segundo botão" tabindex="0">Clique em mim também!</div>
+        <div data-message="Esse é do terceiro botão" tabindex="0">E em mim!</div>
+        <script>
+            const buttons = document.querySelectorAll('div');
+
+            for (let i = 0; i < buttons.length; i++) {
+                addHandler(buttons [i]);
+            }
+            
+            function addHandler(button) {
+                button.onclick = function(e) {
+                    let message = e.target.getAttribute('data-message');
+                    alert(message);
+                }
+            }
+
+            document.onkeydown = function(e) {
+                if(e.key === 'Enter') {document.activeElement.onclick(e);     
+                }
+            };
+        </script>
+
+
+ <script>$(document).ready(function(){$("#azul_bt").click(function(){$("body").toggleClass("protanopia");</script>
+
+
+  
