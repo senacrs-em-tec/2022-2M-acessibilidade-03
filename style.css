@@ -1,0 +1,674 @@
+body {
+    font-size: 16px;
+}
+
+body.padrao {
+    background-color: #ffebeb;
+}
+
+footer {
+    background-color: #f49abb;
+}
+
+.padrao header {
+    background-color: #f49abb;
+    margin: 0 0 0 0;
+}
+
+.padrao header {
+    background-color: #f49abb;
+    margin: 0 0 0 0;
+}
+.protanomalia header{
+    background-color: blue;
+}
+
+.row {
+    flex-wrap: nowrap;
+}
+
+#colbanner2 {
+    display: flex;
+    justify-content: center;
+}
+
+#banner2 {
+    height: 350px;
+}
+
+#lapis2 {
+    background-color: transparent;
+}
+
+#muda:checked ~ .box {
+    color: red;
+    text-align: justify;
+}
+
+
+#colunanav2 {
+    margin: 25px 0 0 0;
+    padding: 0 0 0 129px;
+    display: flex;
+    justify-content: end;
+}
+
+
+.cores {
+    display: flex;
+    position: fixed;
+    right: -62.5%;
+    top: 20%;
+    transition: right 350ms;
+    z-index: 4;
+}
+.btn {
+    width: 40px;
+    height: 40px;
+    background-color: #f49abb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255,0.6);
+    font-size: 2rem;
+    transition: color 350ms;
+    cursor: pointer;
+    line-height: 0;
+    z-index: 4;
+}
+.btn:hover {
+    color: rgba(255, 255, 255,1);
+}
+#btn {
+    display: none;
+}
+
+
+
+/*------------- TRITANOPIA --------------*/
+.tritanopia{
+    box-sizing: border-box;
+    border: 1px solid #f49abb;
+    max-width: 200px;
+    margin: 0;
+    padding: 1rem;
+    background-color: #fcd5d5;
+    display: flex;
+    flex-wrap: wrap;
+}
+.tritanopia h4 {
+    margin: 0 0 0.5em;
+    width: 100%;
+
+}
+
+.tritanopia .box {
+    width: 30px;
+    height: 30px;
+    box-sizing: border-box;
+    border: 1px solid #666;
+    cursor: pointer;
+    opacity: 0.65;
+    transition: background-color 350ms;
+}
+.tritanopia .box:hover {
+    opacity: 1;
+}
+
+.tritanopia {
+    box-sizing: border-box;
+    border: 1px solid #f49abb;
+    max-width: 200px;
+    margin: 0;
+    padding: 1rem;
+    background-color: #fcd5d5;
+    display: flex;
+    flex-wrap: wrap;
+}
+.tritanopia h4 {
+    margin: 0 0 0.5em;
+    width: 100%;
+
+}
+
+.tritanopia a {
+    margin: 0 0 0.5em;
+    width: 100%;
+}
+
+.tritanopia .box {
+    width: 30px;
+    height: 30px;
+    box-sizing: border-box;
+    border: 1px solid #666;
+    cursor: pointer;
+    opacity: 0.65;
+    transition: background-color 350ms;
+}
+.tritanopia .box:hover {
+    opacity: 1;
+}
+
+.tritanopia .box.tri {
+    background-color: #111201;
+}
+.tritanopia .box.tri2 {
+    background-color: #464ca3;
+}
+.tritanopia .box.tri3 {
+    background-color: #bcbf69;
+}
+.tritanopia .box.tri4 {
+    background-color: #f5f5ff;
+}
+.tritanopia .box.tri5 {
+    background-color: #a0a34e;
+}
+
+
+
+
+.paleta {
+    box-sizing: border-box;
+    border: 1px solid #f49abb;
+    max-width: 200px;
+    margin: 0;
+    padding: 1rem;
+    background-color: #fcd5d5;
+    display: flex;
+    flex-wrap: wrap;
+}
+.paleta h4 {
+    margin: 0 0 0.5em;
+    width: 100%;
+
+}
+
+.paleta .box {
+    width: 30px;
+    height: 30px;
+    box-sizing: border-box;
+    border: 1px solid #666;
+    cursor: pointer;
+    opacity: 0.65;
+    transition: background-color 350ms;
+}
+.paleta .box:hover {
+    opacity: 1;
+}
+
+.paleta {
+    box-sizing: border-box;
+    border: 1px solid #f49abb;
+    max-width: 200px;
+    margin: 0;
+    padding: 1rem;
+    background-color: #fcd5d5;
+    display: flex;
+    flex-wrap: wrap;
+}
+.paleta h4 {
+    margin: 0 0 0.5em;
+    width: 100%;
+
+}
+
+.protanopia a {
+    margin: 0 0 0.5em;
+    width: 100%;
+}
+
+.paleta .box {
+    width: 30px;
+    height: 30px;
+    box-sizing: border-box;
+    border: 1px solid #666;
+    cursor: pointer;
+    opacity: 0.65;
+    transition: background-color 350ms;
+}
+.paleta .box:hover {
+    opacity: 1;
+}
+
+.paleta .box.tri {
+    background-color: #111201;
+}
+.paleta .box.tri2 {
+    background-color: #464ca3;
+}
+.paleta .box.tri3 {
+    background-color: #bcbf69;
+}
+.paleta .box.tri4 {
+    background-color: #f5f5ff;
+}
+.paleta .box.tri5 {
+    background-color: #a0a34e;
+}
+
+
+/*------------ ACROMATICO ------------*/
+.acromatico {
+    box-sizing: border-box;
+    border: 1px solid #f49abb;
+    max-width: 200px;
+    margin: 0;
+    padding: 1rem;
+    background-color: #fcd5d5;
+    display: flex;
+    flex-wrap: wrap;
+}
+.acromatico h4 {
+    margin: 0 0 0.5em;
+    width: 100%;
+
+}
+
+.acromatico a {
+    margin: 0 0 0.5em;
+    width: 100%;
+}
+
+.acromatico .box {
+    width: 30px;
+    height: 30px;
+    box-sizing: border-box;
+    border: 1px solid #666;
+    cursor: pointer;
+    opacity: 0.65;
+    transition: background-color 350ms;
+}
+.acromatico .box:hover {
+    opacity: 1;
+}
+
+.acromatico .box.um {
+    background-color: #0f0f0f;
+}
+.acromatico .box.dois {
+    background-color: #545454;
+}
+.acromatico .box.tres {
+    background-color: #b5b5b5;
+}
+.acromatico .box.quatro {
+    background-color: #f5f5f5;
+}
+.acromatico .box.cinco {
+    background-color: #969696;
+}
+
+
+
+/*-------------- PROTANOPIA --------------*/
+.protanopia {
+    box-sizing: border-box;
+    border: 1px solid #f49abb;
+    max-width: 200px;
+    margin: 0;
+    padding: 1rem;
+    background-color: #fcd5d5;
+    display: flex;
+    flex-wrap: wrap;
+}
+.protanopia h4 {
+    margin: 0 0 0.5em;
+    width: 100%;
+
+}
+.protanipia .box {
+    width: 30px;
+    height: 30px;
+    box-sizing: border-box;
+    border: 1px solid #666;
+    cursor: pointer;
+    opacity: 0.65;
+    transition: background-color 350ms;
+}
+.protanopia .box:hover {
+    opacity: 1;
+}
+
+.protanopia {
+    box-sizing: border-box;
+    border: 1px solid #f49abb;
+    max-width: 200px;
+    margin: 0;
+    padding: 1rem;
+    background-color: #fcd5d5;
+    display: flex;
+    flex-wrap: wrap;
+}
+.protanipia h4 {
+    margin: 0 0 0.5em;
+    width: 100%;
+
+}
+.protanopia .box {
+    width: 30px;
+    height: 30px;
+    box-sizing: border-box;
+    border: 1px solid #666;
+    cursor: pointer;
+    opacity: 0.65;
+    transition: background-color 350ms;
+}
+.protanopia .box:hover {
+    opacity: 1;
+}
+
+.protanopia .box.pro {
+    background-color: #212301;
+}
+.protanopia .box.proo {
+    background-color: #151e99;
+}
+.protanopia .box.prooo {
+    background-color: #c9c900;
+}
+.protanopia .box.proooo {
+    background-color: #f5f5ff;
+}
+.protanopia .box.prooooo {
+    background-color: #aba800;
+}
+
+
+
+
+/*----------- TRITANOPIA -----------*/
+.tritanopia {
+    box-sizing: border-box;
+    border: 1px solid #f49abb;
+    max-width: 200px;
+    margin: 0;
+    padding: 1rem;
+    background-color: #fcd5d5;
+    display: flex;
+    flex-wrap: wrap;
+}
+.tritanopia h4 {
+    margin: 0 0 0.5em;
+    width: 100%;
+
+}
+.tritanopia .box {
+    width: 30px;
+    height: 30px;
+    box-sizing: border-box;
+    border: 1px solid #666;
+    cursor: pointer;
+    opacity: 0.65;
+    transition: background-color 350ms;
+}
+.tritanopia .box:hover {
+    opacity: 1;
+}
+
+.tritanopia {
+    box-sizing: border-box;
+    border: 1px solid #f49abb;
+    max-width: 200px;
+    margin: 0;
+    padding: 1rem;
+    background-color: #fcd5d5;
+    display: flex;
+    flex-wrap: wrap;
+}
+.tritanopia h4 {
+    margin: 0 0 0.5em;
+    width: 100%;
+
+}
+.tritanopia .box {
+    width: 30px;
+    height: 30px;
+    box-sizing: border-box;
+    border: 1px solid #666;
+    cursor: pointer;
+    opacity: 0.65;
+    transition: background-color 350ms;
+}
+.tritanopia .box:hover {
+    opacity: 1;
+}
+
+.tritanopia .box.deu {
+    background-color: #23002b;
+}
+.tritanopia .box.deu2 {
+    background-color: #1a7066;
+}
+.tritanopia .box.deu3 {
+    background-color: #e88cff;
+}
+.tritanopia .box.deu4 {
+    background-color: #e6fffc;
+}
+.tritanopia .box.deu5 {
+    background-color: #ce6fe3;
+}
+
+
+
+
+
+
+
+
+.Aa {
+    box-sizing: border-box;
+    border: 1px solid #f49abb;
+    max-width: 200px;
+    margin: 0;
+    padding: 1rem;
+    background-color: #fcd5d5;
+    display: flex;
+    flex-wrap: wrap;
+}
+.Aa h4 {
+    margin: 0 0 0.5em;
+    width: 100%;
+
+}
+.Aa .box {
+    width: 30px;
+    height: 30px;
+    box-sizing: border-box;
+    border: 1px solid #666;
+    cursor: pointer;
+    opacity: 0.65;
+    transition: background-color 350ms;
+}
+.Aa .box:hover {
+    opacity: 1;
+}
+
+
+#lapis2 {
+    background-color: ;
+}
+
+
+input:checked + .cores {
+    right: 0;
+}
+input:checked + .cores > .btn {
+    color: rgba(255, 255, 255,1);
+}
+
+#increase-font, #decrease-font {
+    background-color: #f49abb;
+    border-color: #f49abb;
+    
+}
+
+
+
+#a {
+    color: inherit;
+}
+
+#logo {
+    height: 100px;
+    z-index: 4;
+    margin: 0 0 0 90px;
+}
+
+#colunalogo {
+    display: flex;
+    justify-content: center;
+}
+
+#colunanav {
+    margin: 25px 0 0 0;
+    padding: 0 0 0 ;
+    display: flex;
+    justify-content: end;
+}
+
+#colunaheader {
+    margin: 25px 0 0 0;
+    display: flex;
+    justify-content: end;
+}
+
+
+/*------------ MAIN ----------------*/
+
+
+main {
+    width: 50%;
+    float: left;
+    margin: 20px 20px 0 20px;
+}
+
+article {
+    margin: 0 0 0 100px;
+}
+
+aside {
+    width: 45%;
+    float: right;
+    margin: 5% 0 0 0;
+}
+
+h1 {
+    margin: 50px 0 25px 0;
+}
+
+#img1{
+    height: 280px;
+    margin: 0 0 50px 0;
+    position: fixed;
+}
+
+#teste {
+    display: flex;
+    justify-content: center;
+}
+
+#img2 {
+    height: 250px;
+    margin: 0 0 50px 0;
+}
+
+#img3 {
+    height: 250px;
+}
+
+#card4 {
+    margin: 70px 0 0 100px;
+
+}
+
+#card3 {
+    margin: 0 10px 0 0;
+    border: 2px solid #f49abb;
+    background-color: ;
+}
+
+#texto {
+    text-align: justify;
+    margin
+}
+
+#container2{
+    background-color: #f49abb;
+    margin: 0 0 0 0;
+}
+
+#corio {
+    height: 200px;
+}
+
+#container3 {
+    margin: 100px 0 0 0;
+}
+
+#colcard {
+    display: flex;
+    justify-content: center;
+    margin: 100px 0 0 0;
+}
+
+#cardteste {
+    
+}
+
+#teste3 {
+    border: 1px solid #f49abb;
+    margin: 0 5px 0 0;
+}
+
+#ideais {
+   display: flex;
+    justify-content: center;
+    margin: 10px 0 0 0;
+}
+
+/*--------------  FOOTER  ---------------*/
+
+footer {
+    background-color: #f49abb;
+    margin: 100px 0 0 0;    
+    width: 100%;
+    float: left;
+}
+
+#nomes {
+    display: flex;
+    justify-content: center;
+}
+
+#nome1 {
+    margin: 0 50px 0 0;
+    text-decoration: none;
+    color: inherit;
+}
+
+/*-------------- HOME --------------*/
+
+#mainhome {
+    width: 100%;
+}
+
+#colbannerhome {
+    display: flex;
+    justify-content: end;
+}
+
+#bannerhome {
+    height: 500px;
+}
+
+
+
+
+
+/*----------------- Contato -----------------*/
+
+#articlecontato {
+    margin: 0 0 0 200px;
+}
